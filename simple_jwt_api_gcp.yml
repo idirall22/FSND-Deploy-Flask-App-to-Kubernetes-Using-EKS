@@ -32,9 +32,6 @@ spec:
       containers:
         - name: simple-jwt-api
           image: europe-west1-docker.pkg.dev/gateway-282214/simple-jwt-api/simple-jwt-api
-          securityContext:
-            privileged: false
-            readOnlyRootFilesystem: false
-            allowPrivilegeEscalation: false
           ports:
             - containerPort: 8080
+              
