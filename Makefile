@@ -17,7 +17,8 @@ pull:
 	docker pull europe-west1-docker.pkg.dev/gateway-282214/simple-jwt-api/simple-jwt-api
 	
 run:
-	gcloud artifacts docker images list europe-west1-docker.pkg.dev/gateway-282214/simple-jwt-api/simple-jwt-api
+	python3 main.py
+	# gcloud artifacts docker images list europe-west1-docker.pkg.dev/gateway-282214/simple-jwt-api/simple-jwt-api
 	# docker run \
 	# -p 8080:8080 \
 	# --name $(DOCKER_IMAGE) \
