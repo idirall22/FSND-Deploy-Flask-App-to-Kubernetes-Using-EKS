@@ -31,7 +31,8 @@ spec:
     spec:
       containers:
         - name: simple-jwt-api
-          image: europe-west1-docker.pkg.dev/gateway-282214/simple-jwt-api/simple-jwt-api
+          image: gcr.io/gateway-282214/simple-jwt-api/simple-jwt-api
           ports:
             - containerPort: 8080
+              
               
