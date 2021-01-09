@@ -66,5 +66,5 @@ jobs:
         # kubectl get nodes -o wide
     - name: Deploy
       run: |-
-        kubectl apply -f simple_jwt_api_gcp.yml 
+        kubectl apply -f simple_jwt_api_gcp.yml
         kubectl get pod
